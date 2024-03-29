@@ -92,7 +92,7 @@ export const Signedpage = () => {
         </div>
         {selectedMarker && (
           <div className="right-partition">
-            {/* Render the appropriate JSX component for marker details */}
+            {/*  JSX component for marker details */}
             {getMarkerDetailsComponent(selectedMarker)}
           </div>
         )}
