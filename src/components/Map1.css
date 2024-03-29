@@ -1,0 +1,94 @@
+/* Map.css */
+
+/* Overall container styles */
+.your-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Title Bar styles */
+.title-bar {
+  background-color: #2f87ec;
+  color: #fff;
+  padding: 6px 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.title-bar-links span {
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Main Content Container styles */
+.main-container {
+  display: flex;
+  width: 95%;
+  height: 80vh;
+  margin: 20px auto;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Window styles (Map container) */
+.left-window {
+  flex: 0 0 70%;
+  padding: 0;
+  position: relative;
+}
+
+/* Right Window styles (Details container) */
+.right-window {
+  flex: 0 0 30%;
+  padding: 20px;
+  background-color: #f5f5f5;
+  overflow-y: auto;
+}
+
+/* Marker Details styles */
+.marker-details {
+  padding: 20px;
+}
+
+.marker-details h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.marker-details ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.marker-details li {
+  margin-bottom: 8px;
+}
+
+/* Default Details styles */
+.default-details {
+  padding: 20px;
+}
+
+.default-details h2 {
+  font-size: 18px;
+  font-weight: bold;
+}

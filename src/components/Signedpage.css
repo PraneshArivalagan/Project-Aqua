@@ -1,0 +1,82 @@
+/* Signedpage.css */
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.title-bar {
+  /* width: 100%;
+  background-color: #4da4db;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center; /* Center the title text */
+  /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);  */
+
+  width: 100%;
+  background-color: #4da4db;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.left-partition {
+  flex: 1; /* Expand to fill available space */
+  background-color: #f0f0f0;
+  transition: width 0.3s ease; /* Smooth transition for resizing */
+}
+
+.full-screen {
+  width: 100%; /* Expand to full screen */
+}
+
+.phone-width {
+  width: 100%; /* Take up full width on small screens */
+}
+
+.right-partition {
+  flex: 1; /* Expand to fill available space */
+  background-color: #fff;
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+  padding: 20px;
+}
+
+/* Additional CSS can be added here to further style your page */
+
+/* Styling for marker details in right partition (customize as needed) */
+.marker-details {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.marker-description {
+  font-size: 14px;
+}

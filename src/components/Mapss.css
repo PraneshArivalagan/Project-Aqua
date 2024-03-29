@@ -1,0 +1,69 @@
+/* YourPage.css */
+
+.your-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center; /* Center vertically */
+  }
+  
+  .title-bar {
+    background-color: #2f87ec;
+    color: #fff;
+    padding: 6px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .title-bar-links span {
+    margin: 0 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .main-container {
+    display: flex;
+    width: 95%;
+    height: 80vh;
+    margin: 20px auto 10px; /* Add margin to the top (10px in this example) */
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-window {
+    flex: 0 0 60%;
+    padding: 20px;
+    border-right: 1px solid #ccc; /* Add a vertical border between left and right windows */
+  }
+  
+  .right-window {
+    flex: 0 0 40%;
+    padding: 20px;
+    text-align: left;
+    font-size: small; /* Align text to the left */
+  }
+  
+  /* Style for the marker details */
+  .marker-details {
+    /* padding: 20px; */
+    text-align: left;
+    font-size: 20px; /* Adjust the font size to make it smaller */
+  }
+  

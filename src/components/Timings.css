@@ -1,0 +1,136 @@
+/* Timings.css */
+
+/* Styling for the title bar at the top */
+.Timings-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.title-bar {
+  width: 100%;
+  background-color: #4da4db;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.title-bar-links span {
+  margin: 0 20px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.profile {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+/* Timings Container Styles */
+.Timings-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow-x: hidden;
+  overflow-y: auto; /* Add scrollbar for vertical overflow */
+  padding: 20px;
+  top: 60px; /* Position below the title bar */
+  position: fixed; /* Fixed position at the top */
+  bottom: 0; /* Fix the container at the bottom */
+  left: 0; /* Align the container to the left edge */
+  right: 0; /* Align the container to the right edge */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #0074e4;
+  color: white;
+}
+
+input[type="date"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Button Styles */
+.edit-button,
+.save-button,
+.add-button,.extra-add,
+.delete-button {
+  background-color: #0074e4;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.save-button {
+  background-color: #4caf50;
+}
+
+.add-button {
+  background-color: #4caf50;
+}
+.extra-add{
+  background-color: #4caf50;
+}
+
+.delete-button {
+  background-color: #ff3b3b;
+}
+
+/* Profile Image Styles (Update with your image path) */
+.profile img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+/* Responsive Styles (Optional) */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  .title-bar-links span {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,130 @@
+/* Styling for the title bar at the top */
+.title-bar {
+  width: 100%;
+  background-color: #4da4db;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.title-bar-links span {
+  margin: 0 20px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.complaint-box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Complaint Box Styles */
+.complaint-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow-x: hidden;
+  max-width: 100%;
+  overflow-x: hidden; 
+  overflow-y: auto; /* Add scrollbar for vertical overflow */
+  padding: 20px;
+  top: 60px; /* Position below the title bar */
+  position: fixed; /* Fixed position at the top */
+  bottom: 0; /* Fix the container at the bottom */
+  left: 0; /* Align the container to the left edge */
+  right: 0; /* Align the container to the right edge */
+}
+
+.complaint {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.complaint-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.complaint-header span {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.reply-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.reply-button:hover {
+  background-color: #0056b3;
+}
+
+.complaint-text {
+  font-size: 14px;
+}
+
+.reply-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.reply-textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none; /* Remove vertical resizing */
+}
+
+.send-reply-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.send-reply-button:hover {
+  background-color: #218838;
+}
+
+.complaint-reply {
+  background-color: #e3e3e3;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  word-wrap: break-word; /* Wrap words to the next line if they exceed width */
+}
